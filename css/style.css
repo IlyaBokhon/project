@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "Sans-serif";
+  src: url("../fonts/sansserif.ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: block;
+}
+
+.header {
+  text-align: center;
+  padding: 35px;
+  border-bottom: 1px solid gray;
+}
+.header .link {
+  color: chocolate;
+  margin: 0 10px;
+  font-family: "Sans-serif";
+  font-size: 24px;
+}
+
+aside {
+  display: block;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.main .aside {
+  width: 300px;
+  margin: 77px 0px 7px 0px;
+}
+.main .aside .img {
+  border: solid gray 1px;
+  cursor: pointer;
+}
+.main .aside .item {
+  display: block;
+  width: 400px;
+}
+.main .aside .item .link {
+  font-family: "Sans-serif";
+  color: chocolate;
+  font-size: 25px;
+  position: relative;
+  bottom: 8px;
+}
+.main .aside .item .icon {
+  margin: 10px 20px 0px 0px;
+}
+.main .main-section {
+  margin: 35px 0px 0px 400px;
+}
+.main .main-section h1,
+.main .main-section h2 {
+  color: gray;
+  font-size: 40px;
+}
+.main .main-section h2 {
+  padding-left: 20px;
+  border-left: 7px solid chocolate;
+}
+.main .main-section p,
+.main .main-section .list {
+  font-size: 25px;
+}
+
+footer {
+  text-align: center;
+  padding: 35px;
+  border-top: 1px solid gray;
+}
+footer .link {
+  color: chocolate;
+  font-size: 27px;
+  font-family: "Sans-serif";
+}
+footer .years {
+  color: gray;
+  font-family: "Sans-serif";
+  font-size: 27px;
+  margin-left: 10px;
+}
